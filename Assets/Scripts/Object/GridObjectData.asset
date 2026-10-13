@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b073093084d5731488a739d98f10ae1e, type: 3}
+  m_Name: GridObjectData
+  m_EditorClassIdentifier: 
+  objects:
+  - objectID: 1
+    displayName: 2.4V Battery
+    prefab: {fileID: 6420155185821533814, guid: 7a4de72ce20012546b2dec736934c016, type: 3}
+    sizeX: 4
+    sizeY: 2
+    rotationVariants:
+    - subID: 1
+      prefab: {fileID: 306029144339981949, guid: 278f40b25151d824f9a2dfc0a1e1bc5e, type: 3}
+      sizeX: 2
+      sizeY: 4
+      rotationDegrees: 90
+      prefabRotation: {x: 0, y: 0, z: 0}
+      planePrefab: {fileID: 0}
+      planeOffset: {x: 0, y: 0, z: 0}
+      visualOffset: {x: 0, y: 0.5, z: 0}
+      collisionOffset: {x: 0, y: 0, z: 0}
+    - subID: 2
+      prefab: {fileID: 1789732971370584742, guid: 57333dde1d88123428e0418c1c041683, type: 3}
+      sizeX: 4
+      sizeY: 2
+      rotationDegrees: 180
+      prefabRotation: {x: 0, y: 0, z: 0}
+      planePrefab: {fileID: 0}
+      planeOffset: {x: 0, y: 0, z: 0}
+      visualOffset: {x: 0, y: 0.5, z: 0}
+      collisionOffset: {x: 0, y: 0, z: 0}
+    rotationDegrees: 0
+    prefabRotation: {x: 0, y: 0, z: 0}
+    planePrefab: {fileID: 2474312876445335289, guid: f4091c84a40b94e4d8933e367086db79, type: 3}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: 0, y: 0.5, z: 0}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Source
+    canPlaceOnWire: 0
+    value: 2.4
+    resistance: 0.01
+    voltage: 2.4
+    maxVoltage: 3
+    maxAmperage: 3
+    isVoltageSource: 1
+    voltageNoiseAmplitude: 0
+    voltageNoiseRate: 0.1
+    description: 
+  - objectID: 2
+    displayName: 'LED '
+    prefab: {fileID: 3478192175930634160, guid: 148924c51b4f570488685382b787f33b, type: 3}
+    sizeX: 1
+    sizeY: 1
+    rotationVariants: []
+    rotationDegrees: 0
+    prefabRotation: {x: 0, y: 0, z: 0}
+    planePrefab: {fileID: 0}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: -0.5, y: 0.5, z: -0.5}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Load
+    canPlaceOnWire: 0
+    value: 0
+    resistance: 1
+    voltage: 0
+    maxVoltage: 3
+    maxAmperage: 3
+    isVoltageSource: 0
+    voltageNoiseAmplitude: 0.15
+    voltageNoiseRate: 0.1
+    description: 
+  - objectID: 3
+    displayName: Resistor
+    prefab: {fileID: 597929922687320174, guid: 6e598a92b95c2db4abacff0a9eeedbb9, type: 3}
+    sizeX: 3
+    sizeY: 1
+    rotationVariants: []
+    rotationDegrees: 0
+    prefabRotation: {x: 0, y: 0, z: 0}
+    planePrefab: {fileID: 0}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: 0, y: 0.5, z: 0.1}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Passive
+    canPlaceOnWire: 0
+    value: 0
+    resistance: 420
+    voltage: 0
+    maxVoltage: 0
+    maxAmperage: 0
+    isVoltageSource: 0
+    voltageNoiseAmplitude: 0
+    voltageNoiseRate: 5
+    description: 
+  - objectID: 4
+    displayName: Solar Panel
+    prefab: {fileID: 3115812629981421593, guid: 93e13152198027e4f9c21ba17d85a9c2, type: 3}
+    sizeX: 3
+    sizeY: 2
+    rotationVariants: []
+    rotationDegrees: 0
+    prefabRotation: {x: 90, y: 90, z: 0}
+    planePrefab: {fileID: 0}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: -0.375, y: 0.5, z: 0}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Source
+    canPlaceOnWire: 0
+    value: 0
+    resistance: 0.01
+    voltage: 24
+    maxVoltage: 0
+    maxAmperage: 16.67
+    isVoltageSource: 1
+    voltageNoiseAmplitude: 0.1
+    voltageNoiseRate: 5
+    description: 
+  - objectID: 5
+    displayName: Light Bulb
+    prefab: {fileID: 5546278689618889524, guid: e3ea0eb70e1b5594f976946de4081b60, type: 3}
+    sizeX: 2
+    sizeY: 2
+    rotationVariants: []
+    rotationDegrees: 0
+    prefabRotation: {x: 0, y: 0, z: 0}
+    planePrefab: {fileID: 8866994701044412858, guid: 9469f0fd461d8b74f8f34654942fe243, type: 3}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: 0.5, y: 0.5, z: -0.5}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Load
+    canPlaceOnWire: 0
+    value: 0
+    resistance: 100
+    voltage: 0
+    maxVoltage: 30
+    maxAmperage: 3
+    isVoltageSource: 0
+    voltageNoiseAmplitude: 0.178
+    voltageNoiseRate: 0.1
+    description: Light Source
+  - objectID: 6
+    displayName: Switch
+    prefab: {fileID: 2397103890524388864, guid: b97763efcb02b3d4786670bccb63f59a, type: 3}
+    sizeX: 2
+    sizeY: 2
+    rotationVariants: []
+    rotationDegrees: 0
+    prefabRotation: {x: 0, y: 0, z: 0}
+    planePrefab: {fileID: 8866994701044412858, guid: 9469f0fd461d8b74f8f34654942fe243, type: 3}
+    planeOffset: {x: 0, y: 0, z: 0}
+    visualOffset: {x: 0, y: 0.55, z: 0}
+    collisionOffset: {x: 0, y: 0, z: 0}
+    objectImage: {fileID: 0}
+    objectTypeName: Control
+    canPlaceOnWire: 0
+    value: 0
+    resistance: 0.01
+    voltage: 0
+    maxVoltage: 10000000
+    maxAmperage: 10000000
+    isVoltageSource: 0
+    voltageNoiseAmplitude: 0.178
+    voltageNoiseRate: 0.1
+    description: Control
