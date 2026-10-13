@@ -1,4 +1,7 @@
 ## เล่มโครงงาน
-[![เล่มโครงงาน](report_cover.jpg)](report.pdf)
 
-คลิกที่รูปเพื่อเปิดเล่มโครงงานฉบับเต็ม
+<p align="center">
+  <a href="report.pdf?raw=true"><img src="report_cover.jpg" width="400"></a>
+  <br>
+  คลิกที่รูปเพื่อเปิดเล่มโครงงานฉบับเต็ม
+</p>
